@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 target 'TimerScroll', :exclusive => true do
-  
-  pod 'TFQImageScrollView', :git => 'https://github.com/tanfq1989/TFQImageScrollView.git'
-  pod "TimerScroll", :path => "../"
-  
-  pod "SDWebImage"
+    pod "TimerScroll", :path => "../"
+
+#  pod 'TFQImageScrollView', :git => 'https://github.com/tanfq1989/TFQImageScrollView.git'
+#
+#  pod "SDWebImage"
 end
 
 target 'Tests', :exclusive => true do

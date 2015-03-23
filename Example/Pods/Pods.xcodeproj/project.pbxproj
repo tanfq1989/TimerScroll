@@ -7,720 +7,341 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08BE43007588192F29523EDC /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C72913A4C0281ACD569A60 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		094F91E2C81E1D7B0D7B6AF4 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2418A0C6E73DF81C1A15B194 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A9455C269EAC891914FDD7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C54E872B0D9EFFDC658746D /* Foundation.framework */; };
-		13B04311DBCF1E9AFB534895 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14342A8A2D19217AB3B1ABC /* ImageIO.framework */; };
-		13BE429C1335D732791AD991 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAF338DCD8F0761C10994C1 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D11E5B0A9F9360D9476595D /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5493A6D3F8A53EC30DD915C8 /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		227AE6F89ED0D25C363AD625 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E12BD2E65EE04D6FF218375 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2318315965ADB093424DEFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C54E872B0D9EFFDC658746D /* Foundation.framework */; };
-		293DDD641B85D2E526073F11 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A226E61331ED8C423123863 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A6527FB94688D77E157EB0B /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E68A0624E860C496C6323BB /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AD3D712EF2C51798B7A27E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C54E872B0D9EFFDC658746D /* Foundation.framework */; };
-		3135D19BEE96FBA0C20ECBF1 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F64BEBD844AAA1D126E6EA /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44E4E8C14C651A6A5E0738AF /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85DBFC4794203E9EB42AA /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4C31103B16131D7D5519DA93 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 52338173A06D71E162254B2E /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		523B6A3F1E669ED06A36DB71 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 340518DFA3993E1B7F4307F0 /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5B80F3BE851C135FCDC8538F /* TFQImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 066F31ABCC4680143431B8E4 /* TFQImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61230AE72F71FC79B6A16E32 /* Pods-TimerScroll-SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F40765FF5F51BF2163FAE6E /* Pods-TimerScroll-SDWebImage-dummy.m */; };
-		6445086B9B624125BB8FCD19 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A73F314CADF1AB2CA7228 /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		64A9485236B759D51389CA83 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FED74350876F9F354CE0FDD /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		67A93A94E660ABF953300AD2 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AC301E329F691782609C0EC6 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A519A8983040400B4B0429F /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F950EE7479E6833FBB72151C /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DBCC80CDAC7EB73CE8295DA /* Pods-Tests-TimerScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA730FC2D7D4FFA2B2CF6E4B /* Pods-Tests-TimerScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		726FBB373839B006A57F7454 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E61CE713210A0A1BC4E9756E /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B327742EC297AEC78EE8256 /* Pods-TimerScroll-TFQImageScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BA616F1C37EC34DE777672 /* Pods-TimerScroll-TFQImageScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B810BFE2BBE916F4B657519 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB965F379A6CD4BC05E887 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7C81FF596A41A2DEB8A7AF45 /* Pods-Tests-TimerScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16005CA3FB35410B8E34B975 /* Pods-Tests-TimerScroll-dummy.m */; };
-		7E1914C49EC54E34C7D87AE0 /* Pods-TimerScroll-TimerScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFDFCDAE11867FEB30BB3ED /* Pods-TimerScroll-TimerScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80AEEB623572573CC6999383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BD290AE011A90E863A41FE /* UIKit.framework */; };
-		87FFA89663D5CD580E756E2B /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE480C09FCC80BC958F2F0 /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		89D058548D70D498148CB6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C54E872B0D9EFFDC658746D /* Foundation.framework */; };
-		924EC8D026350C4324E326D1 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0393727D0A2C028137B44272 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9682EBC46EFDFB97429BFB25 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1C549787CCAAD0F59B0D91 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96A6937147E3F928BA231DF9 /* TimerScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2207288F93611BBE05EAB9DA /* TimerScroll.bundle */; };
-		A618167E7FE46A72EFE955B3 /* TimerScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E71A6E4A96E6261AC5E8363B /* TimerScroll.bundle */; };
-		A915DBD65C00D488EB5A573F /* Pods-TimerScroll-TimerScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC1CBC5F35BA8B82B4AB597 /* Pods-TimerScroll-TimerScroll-dummy.m */; };
-		A99DEADE5F23404C7CBF135D /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E18B322BF9C179F2A2607C2A /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AA0CFEE17A30B417F8D1FF2B /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D16F3A2B0CB03F3838B7C30 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AA7C9C3F168847406079D2D8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 708089396A50EA7352321660 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ACCBCBB1889D4ACE00E0EB22 /* Pods-TimerScroll-SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABCF7648A4953954CE4F79A /* Pods-TimerScroll-SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B52E3EA7F5D8EEC7593887E6 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA75D381552EE1E206C3951 /* ImageScrollView.swift */; };
-		C6B5A099821581DF49A72540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C54E872B0D9EFFDC658746D /* Foundation.framework */; };
-		CB05E56C2E4B32BD91F62963 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE494A9EFD545AE223EFCE53 /* Pods-Tests-dummy.m */; };
-		D13EADDEC8D8F087518C7D6F /* TFQImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB39482D9A3017687F7DB2B7 /* TFQImageScrollView.m */; };
-		D1FEA112E947AE9A6BC57DCE /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E7F4A93C1D079BEBEC2A4 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D800D986E7A9F594C751EE92 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD011974B9104E348259949 /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DB3C1786A9672AB27DB17CAF /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D651CDCA64327CEAF5E7DECA /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCC77CABCF427DAE2716F7F0 /* Pods-TimerScroll-TFQImageScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D574664DF6F181887F088E5 /* Pods-TimerScroll-TFQImageScrollView-dummy.m */; };
-		DEAA64339A8F6762EFD79C2D /* Pods-TimerScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24717DCFC23CFA94DA67FE55 /* Pods-TimerScroll-dummy.m */; };
-		E7084426A302E1D0B2C915FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C54E872B0D9EFFDC658746D /* Foundation.framework */; };
-		E8B220FB9BB6650D61B65418 /* Pods-TimerScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 670FBB602B129FC3A23CEE40 /* Pods-TimerScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAA40D3BCC3B6BE1B1C34E16 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9E5C67F9066B8E3A58AE0B /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF989674A072E1D82BCA7B7C /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 50632C12AB6EC701EF8FACE9 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F05F3DFD0C66A5610ACDE4C6 /* TFQImageScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 208C159B1537F1177F70312C /* TFQImageScrollView.bundle */; };
-		F67DE8BBDBB305136D73ED5C /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A29C9E5876B28D4A762FD /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6C83EC9CCFE45E1E0E95E13 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA75D381552EE1E206C3951 /* ImageScrollView.swift */; };
-		F6CF79F6D71E8F4994E9FF71 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E1A3225B1EF90AA4CAD032 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		008BF6F191AFE11DE241DBA3 /* Pods-Tests-TimerScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 061DC9A7264F2E935B5E8414 /* Pods-Tests-TimerScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C1577B737B6CE972890DFC /* Pods-Tests-TimerScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA180C79BE6B520A017A11 /* Pods-Tests-TimerScroll-dummy.m */; };
+		3224AF7A8010A62AA5465D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751E9C0A72924434E914978B /* Foundation.framework */; };
+		3A9BD81BF0779AF5F0F84728 /* Pods-TimerScroll-TimerScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE50A68327652E85E2132740 /* Pods-TimerScroll-TimerScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48D7F4268C45BD8B04E70576 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476EC983B83AB27ABC947EF /* ImageScrollView.swift */; };
+		5FC40F3E6631F1F7073B1A26 /* TimerScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B44367D56BAE64951D66FA9 /* TimerScroll.bundle */; };
+		800181D275B330B6DDFDADA3 /* TimerScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 901AE7E589D9B375C83B6468 /* TimerScroll.bundle */; };
+		92168C027531E32657EB83BE /* Pods-TimerScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D124EECEDEBB7534B394930 /* Pods-TimerScroll-dummy.m */; };
+		BFEAAA50A4D6070FBEA9DE7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751E9C0A72924434E914978B /* Foundation.framework */; };
+		D64CEC6A654E4439AB928794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751E9C0A72924434E914978B /* Foundation.framework */; };
+		D9CA3A68595413049E410DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751E9C0A72924434E914978B /* Foundation.framework */; };
+		DAD25BFC966F3D9AE64909E5 /* Pods-TimerScroll-TimerScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E11F2EBA87F650DA310451 /* Pods-TimerScroll-TimerScroll-dummy.m */; };
+		E98B013EF975AA2F49DA948B /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8F7405533179D835CF0BFA /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4BD24007CB0A95866FA4D5 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF06DCB0494F84A1685167D /* Pods-Tests-dummy.m */; };
+		F1EA4CBFCD29969F72DFAB90 /* Pods-TimerScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3AD45200A13DB03B3C4469 /* Pods-TimerScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D8B450F68A2C770BE8AC3E /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476EC983B83AB27ABC947EF /* ImageScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24CD0E007F649BD8067AB2A2 /* PBXContainerItemProxy */ = {
+		09F6AFE1F381E851AC29E1AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
+			containerPortal = 07FFB842A4402718B253F1D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65F449B04304B06EC6419322;
-			remoteInfo = "Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView";
+			remoteGlobalIDString = 2249340D64D55A7928BE2B70;
+			remoteInfo = "Pods-Tests-TimerScroll-TimerScroll";
 		};
-		49D119D473254778BBE26901 /* PBXContainerItemProxy */ = {
+		48EEA7CD2238E3141DEFA356 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
+			containerPortal = 07FFB842A4402718B253F1D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EA1A710F18C5CB463320A2D6;
-			remoteInfo = "Pods-TimerScroll-SDWebImage";
-		};
-		5072BB70373A09FB1834A8BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 464829E862430D71A88703A4;
-			remoteInfo = "Pods-Tests-TimerScroll";
-		};
-		537970A0FEC29C7A1AF87948 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DF6470ED8DFF273CBE3A7B3;
-			remoteInfo = "Pods-TimerScroll-TimerScroll-TimerScroll";
-		};
-		57C7F20E5A31EABDF7336A0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90ADB6E5C07158252B8DE213;
-			remoteInfo = "Pods-TimerScroll-TFQImageScrollView";
-		};
-		76460981DD6C92EE38DBF7F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74CD676067EC91F45A10A031;
+			remoteGlobalIDString = 5AC3DE52AE3BE23FAB3CA26E;
 			remoteInfo = "Pods-TimerScroll-TimerScroll";
 		};
-		FB898312209D04024B7F4714 /* PBXContainerItemProxy */ = {
+		E1DB8972BA07710D77378B7B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
+			containerPortal = 07FFB842A4402718B253F1D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C36C5331AD82ED4673301352;
-			remoteInfo = "Pods-Tests-TimerScroll-TimerScroll";
+			remoteGlobalIDString = A8E197CD458FA3619093F0B7;
+			remoteInfo = "Pods-Tests-TimerScroll";
+		};
+		FFC540E39ABD3BD4B84350FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FFB842A4402718B253F1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33B290BF6485368B4B68941;
+			remoteInfo = "Pods-TimerScroll-TimerScroll-TimerScroll";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033B9AB177178FC868A83658 /* Pods-TimerScroll-TimerScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerScroll-TimerScroll.xcconfig"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll.xcconfig"; sourceTree = "<group>"; };
-		0393727D0A2C028137B44272 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
-		066F31ABCC4680143431B8E4 /* TFQImageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFQImageScrollView.h; path = Pod/Classes/TFQImageScrollView.h; sourceTree = "<group>"; };
-		09C72913A4C0281ACD569A60 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		0A226E61331ED8C423123863 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
-		0C2A2D08CAB759492C7E122F /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0D7486A502F748B9814AC7D7 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12BD290AE011A90E863A41FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		16005CA3FB35410B8E34B975 /* Pods-Tests-TimerScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-TimerScroll-dummy.m"; sourceTree = "<group>"; };
-		16B11D66BD93887312DF1213 /* Pods-Tests-TimerScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests-TimerScroll.modulemap"; sourceTree = "<group>"; };
-		1885A8FF5A1187668FD91964 /* Pods-TimerScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll.release.xcconfig"; sourceTree = "<group>"; };
-		1B1C549787CCAAD0F59B0D91 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
-		1B8E7F4A93C1D079BEBEC2A4 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
-		208C159B1537F1177F70312C /* TFQImageScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQImageScrollView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		2207288F93611BBE05EAB9DA /* TimerScroll.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerScroll.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		234510C9A3EF158B3D1D9584 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2418A0C6E73DF81C1A15B194 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
-		24717DCFC23CFA94DA67FE55 /* Pods-TimerScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerScroll-dummy.m"; sourceTree = "<group>"; };
-		29D85DBFC4794203E9EB42AA /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
-		2A799C888341F05C49BFCC09 /* Pods-Tests-TimerScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-TimerScroll-prefix.pch"; sourceTree = "<group>"; };
-		2BAF338DCD8F0761C10994C1 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
-		2EC1CBC5F35BA8B82B4AB597 /* Pods-TimerScroll-TimerScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TimerScroll-TimerScroll-dummy.m"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-dummy.m"; sourceTree = "<group>"; };
-		340518DFA3993E1B7F4307F0 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
-		354463B6FC78C7EEF2F2D24E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3CEAD5B57EFC3811F4B44105 /* Pods-TimerScroll-SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll-SDWebImage.xcconfig"; sourceTree = "<group>"; };
-		404E647AFDEB2EF9BE9A1208 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		44770353500780042E5610FB /* Pods-TimerScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimerScroll.modulemap"; sourceTree = "<group>"; };
-		44C02BFCE6CDF11848ADBAED /* TimerScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimerScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EED3218A271B574FCCDD99D /* Pods-TimerScroll-SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-SDWebImage-prefix.pch"; sourceTree = "<group>"; };
-		50632C12AB6EC701EF8FACE9 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		50C9C0B554756BFD908220E4 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
-		52338173A06D71E162254B2E /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		54844924188ED64C184AAFC1 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		5493A6D3F8A53EC30DD915C8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
-		5BDB965F379A6CD4BC05E887 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
-		5C54E872B0D9EFFDC658746D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		65DFD3E8DE302285F90C8EA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		670FBB602B129FC3A23CEE40 /* Pods-TimerScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-umbrella.h"; sourceTree = "<group>"; };
-		6E12BD2E65EE04D6FF218375 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
-		6F40765FF5F51BF2163FAE6E /* Pods-TimerScroll-SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerScroll-SDWebImage-dummy.m"; sourceTree = "<group>"; };
-		6FED74350876F9F354CE0FDD /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
-		708089396A50EA7352321660 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
-		721C40984B4F1453A41F53B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		736762FBA2CB52A62726367A /* Pods-TimerScroll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimerScroll-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73726907A23325CC31EFCB85 /* Pods-TimerScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll.debug.xcconfig"; sourceTree = "<group>"; };
-		74348F2F520FDF4CCBA37ACF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-TimerScroll-TimerScroll/Info.plist"; sourceTree = "<group>"; };
-		7B61419E3FFA29BF8E756C8B /* Pods-TimerScroll-TFQImageScrollView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll-TFQImageScrollView-Private.xcconfig"; sourceTree = "<group>"; };
-		7D574664DF6F181887F088E5 /* Pods-TimerScroll-TFQImageScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerScroll-TFQImageScrollView-dummy.m"; sourceTree = "<group>"; };
-		7E68A0624E860C496C6323BB /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		80553B91B2CC48A4C40DB075 /* Pods-Tests-TimerScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-TimerScroll.xcconfig"; sourceTree = "<group>"; };
-		809A29C9E5876B28D4A762FD /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
-		883CB076270F75D51F8E28A0 /* Pods-TimerScroll-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-environment.h"; sourceTree = "<group>"; };
-		8ABCF7648A4953954CE4F79A /* Pods-TimerScroll-SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-SDWebImage-umbrella.h"; sourceTree = "<group>"; };
-		8BB4BBDDB3FC69AF84492F55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92F64BEBD844AAA1D126E6EA /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
-		98188E92E3002057CAE05613 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		984FF0FFFBA0A9874A321197 /* Pods-TimerScroll-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimerScroll-resources.sh"; sourceTree = "<group>"; };
-		9A328853B0AAD9FE7B28058B /* Pods-TimerScroll-SDWebImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll-SDWebImage-Private.xcconfig"; sourceTree = "<group>"; };
-		9D16F3A2B0CB03F3838B7C30 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
-		9D39E86FC6F661F11BB1F364 /* Pods-TimerScroll-TimerScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-TimerScroll-TimerScroll.modulemap"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll.modulemap"; sourceTree = "<group>"; };
-		9F3C44E2D54C0FAF5A423FF4 /* Pods-Tests-TimerScroll-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-TimerScroll-Private.xcconfig"; sourceTree = "<group>"; };
-		A0E1A3225B1EF90AA4CAD032 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
-		AAA75D381552EE1E206C3951 /* ImageScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
-		AB68FE71D68A13FA0F86885A /* Pods_TimerScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC301E329F691782609C0EC6 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
-		AF9ACD1976427368C99F93B9 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B85D959241A38FAB5108BFD6 /* TimerScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimerScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8B802196AF5AFCAC4E75701 /* Pods-TimerScroll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerScroll-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBC62C59C7738B7C38DF77E5 /* Pods-TimerScroll-TFQImageScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-TFQImageScrollView-prefix.pch"; sourceTree = "<group>"; };
-		BE494A9EFD545AE223EFCE53 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		C316E181FBB6140AB8EC0D1F /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C7CE480C09FCC80BC958F2F0 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
-		CA730FC2D7D4FFA2B2CF6E4B /* Pods-Tests-TimerScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-TimerScroll-umbrella.h"; sourceTree = "<group>"; };
-		D14342A8A2D19217AB3B1ABC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		D1BA616F1C37EC34DE777672 /* Pods-TimerScroll-TFQImageScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-TFQImageScrollView-umbrella.h"; sourceTree = "<group>"; };
-		D37A73F314CADF1AB2CA7228 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
-		D4387CA5131F01C65ED353BE /* Pods-TimerScroll-TFQImageScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimerScroll-TFQImageScrollView.modulemap"; sourceTree = "<group>"; };
-		D651CDCA64327CEAF5E7DECA /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
-		E17B481031939F20C2BF84FF /* Pods-TimerScroll-SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimerScroll-SDWebImage.modulemap"; sourceTree = "<group>"; };
-		E18B322BF9C179F2A2607C2A /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
-		E1AD748F20D3DFA939FFD49A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2501A0B275B3C6CC3C33F2D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E30D34C1DEF531C6FF2D95F3 /* Pods-TimerScroll-TimerScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TimerScroll-TimerScroll-prefix.pch"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-prefix.pch"; sourceTree = "<group>"; };
-		E61CE713210A0A1BC4E9756E /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		E71A6E4A96E6261AC5E8363B /* TimerScroll.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerScroll.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9247612BF3ECD58F676CB03 /* Pods-TimerScroll-TimerScroll-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerScroll-TimerScroll-Private.xcconfig"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-Private.xcconfig"; sourceTree = "<group>"; };
-		EA2A63E2928A6CD19235AC08 /* Pods-TimerScroll-TFQImageScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll-TFQImageScrollView.xcconfig"; sourceTree = "<group>"; };
-		ED9E5C67F9066B8E3A58AE0B /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
-		F16B819B7B52B3C210AF5571 /* Pods-TimerScroll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimerScroll-frameworks.sh"; sourceTree = "<group>"; };
-		F6B96D48284B47743CBACBC4 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		F950EE7479E6833FBB72151C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		FB39482D9A3017687F7DB2B7 /* TFQImageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFQImageScrollView.m; path = Pod/Classes/TFQImageScrollView.m; sourceTree = "<group>"; };
-		FCD011974B9104E348259949 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		FEA28B16F97BD2B817DC9EFB /* TFQImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFQImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFFDFCDAE11867FEB30BB3ED /* Pods-TimerScroll-TimerScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TimerScroll-TimerScroll-umbrella.h"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-umbrella.h"; sourceTree = "<group>"; };
+		029DADFDF462BD39D5596DD1 /* Pods-Tests-TimerScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests-TimerScroll.modulemap"; sourceTree = "<group>"; };
+		0476EC983B83AB27ABC947EF /* ImageScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		061DC9A7264F2E935B5E8414 /* Pods-Tests-TimerScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-TimerScroll-umbrella.h"; sourceTree = "<group>"; };
+		0DF8A47988803BC83CAE6F8D /* Pods-TimerScroll-TimerScroll-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerScroll-TimerScroll-Private.xcconfig"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-Private.xcconfig"; sourceTree = "<group>"; };
+		0E8F7405533179D835CF0BFA /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
+		13FCACEF6852B3EA0E842437 /* TimerScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimerScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19332F3A594F64C2072D6481 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221E49C73A5F83B3301791D3 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22D8630DB4421FCCA79B07B8 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		3546D05CB75B724EE12A35E1 /* Pods-TimerScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll.debug.xcconfig"; sourceTree = "<group>"; };
+		3D124EECEDEBB7534B394930 /* Pods-TimerScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerScroll-dummy.m"; sourceTree = "<group>"; };
+		3EB2C66CAAC16BE1AE1FE863 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE296237C03CEC6D45E8899 /* Pods-TimerScroll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerScroll-acknowledgements.plist"; sourceTree = "<group>"; };
+		4243924165411B8D824D2E7E /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		483734972286CED44D854E84 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF06DCB0494F84A1685167D /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		50E2B30EA140F7545CA04EFC /* Pods-TimerScroll-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimerScroll-resources.sh"; sourceTree = "<group>"; };
+		62887EF4F9F9840B3DFC270D /* Pods-TimerScroll-TimerScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-TimerScroll-TimerScroll.modulemap"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll.modulemap"; sourceTree = "<group>"; };
+		63D418CEF861D670B4BCB1D1 /* Pods-Tests-TimerScroll-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-TimerScroll-Private.xcconfig"; sourceTree = "<group>"; };
+		6F0D1B555A409AB2F330F421 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		751E9C0A72924434E914978B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8327DD4E87DBC7CA1A270E4B /* Pods_TimerScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B16B17C3EC94705A5D96B73 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8F816FAF26103AB55648E060 /* TimerScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimerScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901AE7E589D9B375C83B6468 /* TimerScroll.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerScroll.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		995B26E8C6DCFF835FA1461F /* Pods-TimerScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimerScroll.modulemap"; sourceTree = "<group>"; };
+		9B44367D56BAE64951D66FA9 /* TimerScroll.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerScroll.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3478F3E7857298C50560EC /* Pods-Tests-TimerScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-TimerScroll-prefix.pch"; sourceTree = "<group>"; };
+		AC3AD45200A13DB03B3C4469 /* Pods-TimerScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-umbrella.h"; sourceTree = "<group>"; };
+		B7A924E97CB3F3D7A2BFA174 /* Pods-TimerScroll-TimerScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TimerScroll-TimerScroll-prefix.pch"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-prefix.pch"; sourceTree = "<group>"; };
+		C1C576CB9D74ED9A57E76C17 /* Pods-TimerScroll-TimerScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerScroll-TimerScroll.xcconfig"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll.xcconfig"; sourceTree = "<group>"; };
+		D0E740D68BAB88458280C37F /* Pods-TimerScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerScroll.release.xcconfig"; sourceTree = "<group>"; };
+		D2D9BFDCFD387911A979F61F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D64E9205343007C436C52CC4 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
+		D6E11F2EBA87F650DA310451 /* Pods-TimerScroll-TimerScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TimerScroll-TimerScroll-dummy.m"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-dummy.m"; sourceTree = "<group>"; };
+		DB4F252EEB4A970B68FA09B4 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF6849C2CEE555DC265BE8A /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5D00A2D6247BF6D79161CFA /* Pods-TimerScroll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimerScroll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E80F699E5C85A195142A6B53 /* Pods-Tests-TimerScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-TimerScroll.xcconfig"; sourceTree = "<group>"; };
+		E83952C851FE7A1B95B4D032 /* Pods-TimerScroll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimerScroll-frameworks.sh"; sourceTree = "<group>"; };
+		ECF52F1FD352F0CA01B62297 /* Pods-TimerScroll-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerScroll-environment.h"; sourceTree = "<group>"; };
+		EE50A68327652E85E2132740 /* Pods-TimerScroll-TimerScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TimerScroll-TimerScroll-umbrella.h"; path = "../Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-umbrella.h"; sourceTree = "<group>"; };
+		EE7EEAD7C1A30AC9ECEB791D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-TimerScroll-TimerScroll/Info.plist"; sourceTree = "<group>"; };
+		F1D6E638A46E9A4413FDB6A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFA180C79BE6B520A017A11 /* Pods-Tests-TimerScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-TimerScroll-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0744CF03742A77BCDC9066EA /* Frameworks */ = {
+		11DA0F937B3DD167E93F3C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CA3A68595413049E410DE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		325B7803ABC7CB12104CECC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEAAA50A4D6070FBEA9DE7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D427F98C2DD42C1BEDA106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64CEC6A654E4439AB928794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D4575C5FD7ED76C1446082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3224AF7A8010A62AA5465D13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D479F0067D13C5ACCFF6C36E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15A33A8834B8C37B3860FCDB /* Frameworks */ = {
+		D79C04C45447CE6A9F16D94E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7084426A302E1D0B2C915FF /* Foundation.framework in Frameworks */,
-				80AEEB623572573CC6999383 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26C50A358E0FD1023C49AA47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2EBCD523BF5B659F995248C8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6B5A099821581DF49A72540 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6290AB73F61133627DAEF5DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2318315965ADB093424DEFE3 /* Foundation.framework in Frameworks */,
-				13B04311DBCF1E9AFB534895 /* ImageIO.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9216C1F3D49C07560EEE4A3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAFA3C39F82837BF59F166A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AD3D712EF2C51798B7A27E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D054EA320C378BA34DFA00E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A9455C269EAC891914FDD7F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E60BD2E8C79F7BE28DF8B0F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89D058548D70D498148CB6E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1185F919A90DB357080EF735 /* Development Pods */ = {
+		39F1FECA8F0C6DACE54C509F = {
 			isa = PBXGroup;
 			children = (
-				201D31C1BF2A7C049084C052 /* TimerScroll */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1B330390E7794AE09D1543A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A607B997EA491FAA11933D3F /* SDWebImage */,
-				2ADE45EB192130CDF7DB6CE2 /* TFQImageScrollView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		201D31C1BF2A7C049084C052 /* TimerScroll */ = {
-			isa = PBXGroup;
-			children = (
-				3981081D6CD0051AE7CD3437 /* Pod */,
-				E6B77913BD718102084D25C3 /* Support Files */,
-			);
-			name = TimerScroll;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2ADE45EB192130CDF7DB6CE2 /* TFQImageScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				066F31ABCC4680143431B8E4 /* TFQImageScrollView.h */,
-				FB39482D9A3017687F7DB2B7 /* TFQImageScrollView.m */,
-				2F767A948CF812F9F60F4243 /* Support Files */,
-			);
-			path = TFQImageScrollView;
-			sourceTree = "<group>";
-		};
-		2F767A948CF812F9F60F4243 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				721C40984B4F1453A41F53B3 /* Info.plist */,
-				D4387CA5131F01C65ED353BE /* Pods-TimerScroll-TFQImageScrollView.modulemap */,
-				EA2A63E2928A6CD19235AC08 /* Pods-TimerScroll-TFQImageScrollView.xcconfig */,
-				7B61419E3FFA29BF8E756C8B /* Pods-TimerScroll-TFQImageScrollView-Private.xcconfig */,
-				7D574664DF6F181887F088E5 /* Pods-TimerScroll-TFQImageScrollView-dummy.m */,
-				BBC62C59C7738B7C38DF77E5 /* Pods-TimerScroll-TFQImageScrollView-prefix.pch */,
-				D1BA616F1C37EC34DE777672 /* Pods-TimerScroll-TFQImageScrollView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-TimerScroll-TFQImageScrollView";
-			sourceTree = "<group>";
-		};
-		3981081D6CD0051AE7CD3437 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7402FA2853AA2B669EA2112A /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		3CE7843CA5FFA1313C9CE019 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				94A90C458DC6C05E586F34E8 /* Pods-Tests */,
-				7E421019AE5279DB30654755 /* Pods-TimerScroll */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3CF001F945504E00045ADA98 = {
-			isa = PBXGroup;
-			children = (
-				354463B6FC78C7EEF2F2D24E /* Podfile */,
-				1185F919A90DB357080EF735 /* Development Pods */,
-				E2853B83B6DFE1333136847A /* Frameworks */,
-				1B330390E7794AE09D1543A8 /* Pods */,
-				63699F77E6BFDF8BD331C0E6 /* Products */,
-				3CE7843CA5FFA1313C9CE019 /* Targets Support Files */,
+				D2D9BFDCFD387911A979F61F /* Podfile */,
+				88B3AA330EFE33ECFD47F7C7 /* Development Pods */,
+				DEDCC1AAF61C01F13409E7FA /* Frameworks */,
+				ED5C27C3C50385F10D275593 /* Products */,
+				D42B4FF61E087F2B4E0DA571 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		3F952A298C3164D277214216 /* Core */ = {
+		6063AA4C3DC709F383D8A3A8 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				50632C12AB6EC701EF8FACE9 /* NSData+ImageContentType.h */,
-				C7CE480C09FCC80BC958F2F0 /* NSData+ImageContentType.m */,
-				92F64BEBD844AAA1D126E6EA /* SDImageCache.h */,
-				5BDB965F379A6CD4BC05E887 /* SDImageCache.m */,
-				0393727D0A2C028137B44272 /* SDWebImageCompat.h */,
-				5493A6D3F8A53EC30DD915C8 /* SDWebImageCompat.m */,
-				D651CDCA64327CEAF5E7DECA /* SDWebImageDecoder.h */,
-				9D16F3A2B0CB03F3838B7C30 /* SDWebImageDecoder.m */,
-				A0E1A3225B1EF90AA4CAD032 /* SDWebImageDownloader.h */,
-				6FED74350876F9F354CE0FDD /* SDWebImageDownloader.m */,
-				1B1C549787CCAAD0F59B0D91 /* SDWebImageDownloaderOperation.h */,
-				340518DFA3993E1B7F4307F0 /* SDWebImageDownloaderOperation.m */,
-				809A29C9E5876B28D4A762FD /* SDWebImageManager.h */,
-				29D85DBFC4794203E9EB42AA /* SDWebImageManager.m */,
-				6E12BD2E65EE04D6FF218375 /* SDWebImageOperation.h */,
-				F950EE7479E6833FBB72151C /* SDWebImagePrefetcher.h */,
-				52338173A06D71E162254B2E /* SDWebImagePrefetcher.m */,
-				0A226E61331ED8C423123863 /* UIButton+WebCache.h */,
-				E18B322BF9C179F2A2607C2A /* UIButton+WebCache.m */,
-				ED9E5C67F9066B8E3A58AE0B /* UIImage+GIF.h */,
-				1B8E7F4A93C1D079BEBEC2A4 /* UIImage+GIF.m */,
-				2BAF338DCD8F0761C10994C1 /* UIImage+MultiFormat.h */,
-				D37A73F314CADF1AB2CA7228 /* UIImage+MultiFormat.m */,
-				AC301E329F691782609C0EC6 /* UIImageView+HighlightedWebCache.h */,
-				708089396A50EA7352321660 /* UIImageView+HighlightedWebCache.m */,
-				7E68A0624E860C496C6323BB /* UIImageView+WebCache.h */,
-				09C72913A4C0281ACD569A60 /* UIImageView+WebCache.m */,
-				E61CE713210A0A1BC4E9756E /* UIView+WebCacheOperation.h */,
-				FCD011974B9104E348259949 /* UIView+WebCacheOperation.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		63699F77E6BFDF8BD331C0E6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF9ACD1976427368C99F93B9 /* Pods_Tests.framework */,
-				AB68FE71D68A13FA0F86885A /* Pods_TimerScroll.framework */,
-				E2501A0B275B3C6CC3C33F2D /* SDWebImage.framework */,
-				208C159B1537F1177F70312C /* TFQImageScrollView.bundle */,
-				FEA28B16F97BD2B817DC9EFB /* TFQImageScrollView.framework */,
-				E71A6E4A96E6261AC5E8363B /* TimerScroll.bundle */,
-				2207288F93611BBE05EAB9DA /* TimerScroll.bundle */,
-				B85D959241A38FAB5108BFD6 /* TimerScroll.framework */,
-				44C02BFCE6CDF11848ADBAED /* TimerScroll.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7402FA2853AA2B669EA2112A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AAA75D381552EE1E206C3951 /* ImageScrollView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7E421019AE5279DB30654755 /* Pods-TimerScroll */ = {
-			isa = PBXGroup;
-			children = (
-				98188E92E3002057CAE05613 /* Info.plist */,
-				44770353500780042E5610FB /* Pods-TimerScroll.modulemap */,
-				736762FBA2CB52A62726367A /* Pods-TimerScroll-acknowledgements.markdown */,
-				B8B802196AF5AFCAC4E75701 /* Pods-TimerScroll-acknowledgements.plist */,
-				24717DCFC23CFA94DA67FE55 /* Pods-TimerScroll-dummy.m */,
-				883CB076270F75D51F8E28A0 /* Pods-TimerScroll-environment.h */,
-				F16B819B7B52B3C210AF5571 /* Pods-TimerScroll-frameworks.sh */,
-				984FF0FFFBA0A9874A321197 /* Pods-TimerScroll-resources.sh */,
-				670FBB602B129FC3A23CEE40 /* Pods-TimerScroll-umbrella.h */,
-				73726907A23325CC31EFCB85 /* Pods-TimerScroll.debug.xcconfig */,
-				1885A8FF5A1187668FD91964 /* Pods-TimerScroll.release.xcconfig */,
-			);
-			name = "Pods-TimerScroll";
-			path = "Target Support Files/Pods-TimerScroll";
-			sourceTree = "<group>";
-		};
-		94A90C458DC6C05E586F34E8 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8BB4BBDDB3FC69AF84492F55 /* Info.plist */,
-				50C9C0B554756BFD908220E4 /* Pods-Tests.modulemap */,
-				0D7486A502F748B9814AC7D7 /* Pods-Tests-acknowledgements.markdown */,
-				404E647AFDEB2EF9BE9A1208 /* Pods-Tests-acknowledgements.plist */,
-				BE494A9EFD545AE223EFCE53 /* Pods-Tests-dummy.m */,
-				F6B96D48284B47743CBACBC4 /* Pods-Tests-environment.h */,
-				C316E181FBB6140AB8EC0D1F /* Pods-Tests-frameworks.sh */,
-				54844924188ED64C184AAFC1 /* Pods-Tests-resources.sh */,
-				2418A0C6E73DF81C1A15B194 /* Pods-Tests-umbrella.h */,
-				234510C9A3EF158B3D1D9584 /* Pods-Tests.debug.xcconfig */,
-				0C2A2D08CAB759492C7E122F /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		9831070F839502188E22859C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E1AD748F20D3DFA939FFD49A /* Info.plist */,
-				E17B481031939F20C2BF84FF /* Pods-TimerScroll-SDWebImage.modulemap */,
-				3CEAD5B57EFC3811F4B44105 /* Pods-TimerScroll-SDWebImage.xcconfig */,
-				9A328853B0AAD9FE7B28058B /* Pods-TimerScroll-SDWebImage-Private.xcconfig */,
-				6F40765FF5F51BF2163FAE6E /* Pods-TimerScroll-SDWebImage-dummy.m */,
-				4EED3218A271B574FCCDD99D /* Pods-TimerScroll-SDWebImage-prefix.pch */,
-				8ABCF7648A4953954CE4F79A /* Pods-TimerScroll-SDWebImage-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-TimerScroll-SDWebImage";
-			sourceTree = "<group>";
-		};
-		A607B997EA491FAA11933D3F /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				3F952A298C3164D277214216 /* Core */,
-				9831070F839502188E22859C /* Support Files */,
-			);
-			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		D1ED0B601C85D1D42D0DEDE7 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5C54E872B0D9EFFDC658746D /* Foundation.framework */,
-				D14342A8A2D19217AB3B1ABC /* ImageIO.framework */,
-				12BD290AE011A90E863A41FE /* UIKit.framework */,
+				751E9C0A72924434E914978B /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E2853B83B6DFE1333136847A /* Frameworks */ = {
+		6BAD8D1F8EDE5BD686365554 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D1ED0B601C85D1D42D0DEDE7 /* iOS */,
+				0476EC983B83AB27ABC947EF /* ImageScrollView.swift */,
 			);
-			name = Frameworks;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		E6B77913BD718102084D25C3 /* Support Files */ = {
+		88B3AA330EFE33ECFD47F7C7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65DFD3E8DE302285F90C8EA4 /* Info.plist */,
-				74348F2F520FDF4CCBA37ACF /* Info.plist */,
-				16B11D66BD93887312DF1213 /* Pods-Tests-TimerScroll.modulemap */,
-				80553B91B2CC48A4C40DB075 /* Pods-Tests-TimerScroll.xcconfig */,
-				9F3C44E2D54C0FAF5A423FF4 /* Pods-Tests-TimerScroll-Private.xcconfig */,
-				16005CA3FB35410B8E34B975 /* Pods-Tests-TimerScroll-dummy.m */,
-				2A799C888341F05C49BFCC09 /* Pods-Tests-TimerScroll-prefix.pch */,
-				CA730FC2D7D4FFA2B2CF6E4B /* Pods-Tests-TimerScroll-umbrella.h */,
-				9D39E86FC6F661F11BB1F364 /* Pods-TimerScroll-TimerScroll.modulemap */,
-				033B9AB177178FC868A83658 /* Pods-TimerScroll-TimerScroll.xcconfig */,
-				E9247612BF3ECD58F676CB03 /* Pods-TimerScroll-TimerScroll-Private.xcconfig */,
-				2EC1CBC5F35BA8B82B4AB597 /* Pods-TimerScroll-TimerScroll-dummy.m */,
-				E30D34C1DEF531C6FF2D95F3 /* Pods-TimerScroll-TimerScroll-prefix.pch */,
-				FFFDFCDAE11867FEB30BB3ED /* Pods-TimerScroll-TimerScroll-umbrella.h */,
+				F9B51D857077647240CA67A6 /* TimerScroll */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE6A8472F53E9800FDCE1274 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19332F3A594F64C2072D6481 /* Info.plist */,
+				EE7EEAD7C1A30AC9ECEB791D /* Info.plist */,
+				029DADFDF462BD39D5596DD1 /* Pods-Tests-TimerScroll.modulemap */,
+				E80F699E5C85A195142A6B53 /* Pods-Tests-TimerScroll.xcconfig */,
+				63D418CEF861D670B4BCB1D1 /* Pods-Tests-TimerScroll-Private.xcconfig */,
+				FFFA180C79BE6B520A017A11 /* Pods-Tests-TimerScroll-dummy.m */,
+				9C3478F3E7857298C50560EC /* Pods-Tests-TimerScroll-prefix.pch */,
+				061DC9A7264F2E935B5E8414 /* Pods-Tests-TimerScroll-umbrella.h */,
+				62887EF4F9F9840B3DFC270D /* Pods-TimerScroll-TimerScroll.modulemap */,
+				C1C576CB9D74ED9A57E76C17 /* Pods-TimerScroll-TimerScroll.xcconfig */,
+				0DF8A47988803BC83CAE6F8D /* Pods-TimerScroll-TimerScroll-Private.xcconfig */,
+				D6E11F2EBA87F650DA310451 /* Pods-TimerScroll-TimerScroll-dummy.m */,
+				B7A924E97CB3F3D7A2BFA174 /* Pods-TimerScroll-TimerScroll-prefix.pch */,
+				EE50A68327652E85E2132740 /* Pods-TimerScroll-TimerScroll-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-Tests-TimerScroll";
 			sourceTree = "<group>";
 		};
+		BE0BF4C0AD91511CD0C93B51 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD8D1F8EDE5BD686365554 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D42B4FF61E087F2B4E0DA571 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F29A57BEED1F66BBA4FF86EC /* Pods-Tests */,
+				D95C19042BCC802919AFA981 /* Pods-TimerScroll */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D95C19042BCC802919AFA981 /* Pods-TimerScroll */ = {
+			isa = PBXGroup;
+			children = (
+				3EB2C66CAAC16BE1AE1FE863 /* Info.plist */,
+				995B26E8C6DCFF835FA1461F /* Pods-TimerScroll.modulemap */,
+				E5D00A2D6247BF6D79161CFA /* Pods-TimerScroll-acknowledgements.markdown */,
+				3EE296237C03CEC6D45E8899 /* Pods-TimerScroll-acknowledgements.plist */,
+				3D124EECEDEBB7534B394930 /* Pods-TimerScroll-dummy.m */,
+				ECF52F1FD352F0CA01B62297 /* Pods-TimerScroll-environment.h */,
+				E83952C851FE7A1B95B4D032 /* Pods-TimerScroll-frameworks.sh */,
+				50E2B30EA140F7545CA04EFC /* Pods-TimerScroll-resources.sh */,
+				AC3AD45200A13DB03B3C4469 /* Pods-TimerScroll-umbrella.h */,
+				3546D05CB75B724EE12A35E1 /* Pods-TimerScroll.debug.xcconfig */,
+				D0E740D68BAB88458280C37F /* Pods-TimerScroll.release.xcconfig */,
+			);
+			name = "Pods-TimerScroll";
+			path = "Target Support Files/Pods-TimerScroll";
+			sourceTree = "<group>";
+		};
+		DEDCC1AAF61C01F13409E7FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6063AA4C3DC709F383D8A3A8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED5C27C3C50385F10D275593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				483734972286CED44D854E84 /* Pods_Tests.framework */,
+				8327DD4E87DBC7CA1A270E4B /* Pods_TimerScroll.framework */,
+				9B44367D56BAE64951D66FA9 /* TimerScroll.bundle */,
+				901AE7E589D9B375C83B6468 /* TimerScroll.bundle */,
+				13FCACEF6852B3EA0E842437 /* TimerScroll.framework */,
+				8F816FAF26103AB55648E060 /* TimerScroll.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29A57BEED1F66BBA4FF86EC /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D6E638A46E9A4413FDB6A6 /* Info.plist */,
+				D64E9205343007C436C52CC4 /* Pods-Tests.modulemap */,
+				6F0D1B555A409AB2F330F421 /* Pods-Tests-acknowledgements.markdown */,
+				DBF6849C2CEE555DC265BE8A /* Pods-Tests-acknowledgements.plist */,
+				4EF06DCB0494F84A1685167D /* Pods-Tests-dummy.m */,
+				22D8630DB4421FCCA79B07B8 /* Pods-Tests-environment.h */,
+				8B16B17C3EC94705A5D96B73 /* Pods-Tests-frameworks.sh */,
+				4243924165411B8D824D2E7E /* Pods-Tests-resources.sh */,
+				0E8F7405533179D835CF0BFA /* Pods-Tests-umbrella.h */,
+				DB4F252EEB4A970B68FA09B4 /* Pods-Tests.debug.xcconfig */,
+				221E49C73A5F83B3301791D3 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		F9B51D857077647240CA67A6 /* TimerScroll */ = {
+			isa = PBXGroup;
+			children = (
+				BE0BF4C0AD91511CD0C93B51 /* Pod */,
+				AE6A8472F53E9800FDCE1274 /* Support Files */,
+			);
+			name = TimerScroll;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		486EB7F9FC80B1F5BAE0EC75 /* Headers */ = {
+		405FDA63131EFD67AB068F9C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF989674A072E1D82BCA7B7C /* NSData+ImageContentType.h in Headers */,
-				ACCBCBB1889D4ACE00E0EB22 /* Pods-TimerScroll-SDWebImage-umbrella.h in Headers */,
-				3135D19BEE96FBA0C20ECBF1 /* SDImageCache.h in Headers */,
-				924EC8D026350C4324E326D1 /* SDWebImageCompat.h in Headers */,
-				DB3C1786A9672AB27DB17CAF /* SDWebImageDecoder.h in Headers */,
-				F6CF79F6D71E8F4994E9FF71 /* SDWebImageDownloader.h in Headers */,
-				9682EBC46EFDFB97429BFB25 /* SDWebImageDownloaderOperation.h in Headers */,
-				F67DE8BBDBB305136D73ED5C /* SDWebImageManager.h in Headers */,
-				227AE6F89ED0D25C363AD625 /* SDWebImageOperation.h in Headers */,
-				6A519A8983040400B4B0429F /* SDWebImagePrefetcher.h in Headers */,
-				293DDD641B85D2E526073F11 /* UIButton+WebCache.h in Headers */,
-				EAA40D3BCC3B6BE1B1C34E16 /* UIImage+GIF.h in Headers */,
-				13BE429C1335D732791AD991 /* UIImage+MultiFormat.h in Headers */,
-				67A93A94E660ABF953300AD2 /* UIImageView+HighlightedWebCache.h in Headers */,
-				2A6527FB94688D77E157EB0B /* UIImageView+WebCache.h in Headers */,
-				726FBB373839B006A57F7454 /* UIView+WebCacheOperation.h in Headers */,
+				E98B013EF975AA2F49DA948B /* Pods-Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FCEFD09222E121881A57810 /* Headers */ = {
+		8255F79863684DB682D9264D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				094F91E2C81E1D7B0D7B6AF4 /* Pods-Tests-umbrella.h in Headers */,
+				3A9BD81BF0779AF5F0F84728 /* Pods-TimerScroll-TimerScroll-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A074AD09CC9EFB47DFFA3D18 /* Headers */ = {
+		E5B07EF633E2EA89D35BFAA4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B327742EC297AEC78EE8256 /* Pods-TimerScroll-TFQImageScrollView-umbrella.h in Headers */,
-				5B80F3BE851C135FCDC8538F /* TFQImageScrollView.h in Headers */,
+				008BF6F191AFE11DE241DBA3 /* Pods-Tests-TimerScroll-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFEBA27B3AAED973D83838EB /* Headers */ = {
+		F350834CBF33D67B47A8623B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B220FB9BB6650D61B65418 /* Pods-TimerScroll-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1759FCD5D74754858419AD3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DBCC80CDAC7EB73CE8295DA /* Pods-Tests-TimerScroll-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8D26CC2B057BCDDE95F41BC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E1914C49EC54E34C7D87AE0 /* Pods-TimerScroll-TimerScroll-umbrella.h in Headers */,
+				F1EA4CBFCD29969F72DFAB90 /* Pods-TimerScroll-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1DF6470ED8DFF273CBE3A7B3 /* Pods-TimerScroll-TimerScroll-TimerScroll */ = {
+		2249340D64D55A7928BE2B70 /* Pods-Tests-TimerScroll-TimerScroll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D56DF1FCDBD60388AAC06182 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll-TimerScroll" */;
+			buildConfigurationList = 01BA7661480B8E1CF2343D98 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll-TimerScroll" */;
 			buildPhases = (
-				8401CB977C9ED39B13E2173B /* Sources */,
-				26C50A358E0FD1023C49AA47 /* Frameworks */,
-				DC2DED9D04B09E311BF7283E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TimerScroll-TimerScroll-TimerScroll";
-			productName = "Pods-TimerScroll-TimerScroll-TimerScroll";
-			productReference = 2207288F93611BBE05EAB9DA /* TimerScroll.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		464829E862430D71A88703A4 /* Pods-Tests-TimerScroll */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF66FBC79BA28118890DBBF4 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll" */;
-			buildPhases = (
-				48D45170EA2606CC764A9326 /* Sources */,
-				2EBCD523BF5B659F995248C8 /* Frameworks */,
-				5020C5FC4ABB372D306109EC /* Resources */,
-				E1759FCD5D74754858419AD3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E803DE5E0740446C3715594 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-TimerScroll";
-			productName = "Pods-Tests-TimerScroll";
-			productReference = 44C02BFCE6CDF11848ADBAED /* TimerScroll.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		65F449B04304B06EC6419322 /* Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1140B38B30D14FD94A8C3E1D /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView" */;
-			buildPhases = (
-				A0953E2EF1B3DB4D80099EED /* Sources */,
-				0744CF03742A77BCDC9066EA /* Frameworks */,
-				419A22BD10E4E6CEF0E3A8E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView";
-			productName = "Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView";
-			productReference = 208C159B1537F1177F70312C /* TFQImageScrollView.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		74CD676067EC91F45A10A031 /* Pods-TimerScroll-TimerScroll */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C57438116E6E70DBC41D3925 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll" */;
-			buildPhases = (
-				D63D98199521EB3EFB78536D /* Sources */,
-				BAFA3C39F82837BF59F166A1 /* Frameworks */,
-				AE92D622E1D56978CE392DB3 /* Resources */,
-				F8D26CC2B057BCDDE95F41BC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F6D727D27E9EACBBDDA8B73 /* PBXTargetDependency */,
-			);
-			name = "Pods-TimerScroll-TimerScroll";
-			productName = "Pods-TimerScroll-TimerScroll";
-			productReference = B85D959241A38FAB5108BFD6 /* TimerScroll.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		90ADB6E5C07158252B8DE213 /* Pods-TimerScroll-TFQImageScrollView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6C14E7BABB0DE8B35A86EC32 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TFQImageScrollView" */;
-			buildPhases = (
-				D6A7BDCB138C358AA2FCB846 /* Sources */,
-				15A33A8834B8C37B3860FCDB /* Frameworks */,
-				353BF0AF3807420CAD139A7B /* Resources */,
-				A074AD09CC9EFB47DFFA3D18 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				69A7C7AA1CAAD1E747D25D2C /* PBXTargetDependency */,
-			);
-			name = "Pods-TimerScroll-TFQImageScrollView";
-			productName = "Pods-TimerScroll-TFQImageScrollView";
-			productReference = FEA28B16F97BD2B817DC9EFB /* TFQImageScrollView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A0AFFCE18F82192B61446A59 /* Pods-TimerScroll */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F2E5CA8A9EF21580339902A /* Build configuration list for PBXNativeTarget "Pods-TimerScroll" */;
-			buildPhases = (
-				0CE7779441739C40FDA7CC22 /* Sources */,
-				D054EA320C378BA34DFA00E9 /* Frameworks */,
-				CFEBA27B3AAED973D83838EB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B494CD42427416E2F606D34 /* PBXTargetDependency */,
-				245E0BA219F4AD70B076426C /* PBXTargetDependency */,
-				01128B746C8545EECB90474B /* PBXTargetDependency */,
-			);
-			name = "Pods-TimerScroll";
-			productName = "Pods-TimerScroll";
-			productReference = AB68FE71D68A13FA0F86885A /* Pods_TimerScroll.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C36C5331AD82ED4673301352 /* Pods-Tests-TimerScroll-TimerScroll */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D012C09A7E7DDD194ECDB072 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll-TimerScroll" */;
-			buildPhases = (
-				38B2E7BD092306BC8006A56D /* Sources */,
-				9216C1F3D49C07560EEE4A3E /* Frameworks */,
-				0A8FB42E01AAE1202271CE90 /* Resources */,
+				409319BEE33735012C261E0F /* Sources */,
+				D79C04C45447CE6A9F16D94E /* Frameworks */,
+				445E55AAD1282EC936CD95F5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -728,117 +349,155 @@
 			);
 			name = "Pods-Tests-TimerScroll-TimerScroll";
 			productName = "Pods-Tests-TimerScroll-TimerScroll";
-			productReference = E71A6E4A96E6261AC5E8363B /* TimerScroll.bundle */;
+			productReference = 9B44367D56BAE64951D66FA9 /* TimerScroll.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		D90AF8983AEEAA7F625C3DF1 /* Pods-Tests */ = {
+		3A1E3AED24EEE10C022F37B8 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F18D0D37F3D2438CC0E63418 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 3342DAED4B8D914B35B00EE0 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				E5968165C113507EF818FF37 /* Sources */,
-				E60BD2E8C79F7BE28DF8B0F0 /* Frameworks */,
-				6FCEFD09222E121881A57810 /* Headers */,
+				94840D6BB8A9384135444FD1 /* Sources */,
+				95D4575C5FD7ED76C1446082 /* Frameworks */,
+				405FDA63131EFD67AB068F9C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3D0088EFE575A5AA66BE768C /* PBXTargetDependency */,
+				D12C0CA6B44C3FB654503E81 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = AF9ACD1976427368C99F93B9 /* Pods_Tests.framework */;
+			productReference = 483734972286CED44D854E84 /* Pods_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EA1A710F18C5CB463320A2D6 /* Pods-TimerScroll-SDWebImage */ = {
+		518BC0F13323FDEE3EF6129B /* Pods-TimerScroll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56556EFC871375F1C50B70DC /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-SDWebImage" */;
+			buildConfigurationList = 92E91B4891DE3DED28B7B2F7 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll" */;
 			buildPhases = (
-				B24355DDE08D842A3235766D /* Sources */,
-				6290AB73F61133627DAEF5DD /* Frameworks */,
-				486EB7F9FC80B1F5BAE0EC75 /* Headers */,
+				B1E0CBB963F0A8C8496DB4B7 /* Sources */,
+				325B7803ABC7CB12104CECC3 /* Frameworks */,
+				F350834CBF33D67B47A8623B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9D8EA3964B0068833D7663 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimerScroll";
+			productName = "Pods-TimerScroll";
+			productReference = 8327DD4E87DBC7CA1A270E4B /* Pods_TimerScroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AC3DE52AE3BE23FAB3CA26E /* Pods-TimerScroll-TimerScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6B4DF2597BAD6994483584 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll" */;
+			buildPhases = (
+				A245DF84CD5B9D52D705E158 /* Sources */,
+				79D427F98C2DD42C1BEDA106 /* Frameworks */,
+				51896D89474BDFCBCB0A604C /* Resources */,
+				8255F79863684DB682D9264D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AACB85B3E69AE8E93B78B6B /* PBXTargetDependency */,
+			);
+			name = "Pods-TimerScroll-TimerScroll";
+			productName = "Pods-TimerScroll-TimerScroll";
+			productReference = 13FCACEF6852B3EA0E842437 /* TimerScroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8E197CD458FA3619093F0B7 /* Pods-Tests-TimerScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA3FB1C5A902327B8888926 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll" */;
+			buildPhases = (
+				C7297B55A302AEE78490D1A4 /* Sources */,
+				11DA0F937B3DD167E93F3C8A /* Frameworks */,
+				6E69FA412F1558D4D3BB4313 /* Resources */,
+				E5B07EF633E2EA89D35BFAA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C63FFA7A5B6EFC3BEB6ADD2F /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-TimerScroll";
+			productName = "Pods-Tests-TimerScroll";
+			productReference = 8F816FAF26103AB55648E060 /* TimerScroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D33B290BF6485368B4B68941 /* Pods-TimerScroll-TimerScroll-TimerScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0293C8E89C239AF5B798325 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll-TimerScroll" */;
+			buildPhases = (
+				2D46853D2A195304B53BF111 /* Sources */,
+				D479F0067D13C5ACCFF6C36E /* Frameworks */,
+				DE5BB665E4423B30EC4B47DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-TimerScroll-SDWebImage";
-			productName = "Pods-TimerScroll-SDWebImage";
-			productReference = E2501A0B275B3C6CC3C33F2D /* SDWebImage.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "Pods-TimerScroll-TimerScroll-TimerScroll";
+			productName = "Pods-TimerScroll-TimerScroll-TimerScroll";
+			productReference = 901AE7E589D9B375C83B6468 /* TimerScroll.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C607D4AF2CE0AE2AAF79BC26 /* Project object */ = {
+		07FFB842A4402718B253F1D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 8D5EDAB86D2C068AE6D3A780 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2006A9ACF922FD5016F74AC1 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3CF001F945504E00045ADA98;
-			productRefGroup = 63699F77E6BFDF8BD331C0E6 /* Products */;
+			mainGroup = 39F1FECA8F0C6DACE54C509F;
+			productRefGroup = ED5C27C3C50385F10D275593 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D90AF8983AEEAA7F625C3DF1 /* Pods-Tests */,
-				464829E862430D71A88703A4 /* Pods-Tests-TimerScroll */,
-				C36C5331AD82ED4673301352 /* Pods-Tests-TimerScroll-TimerScroll */,
-				A0AFFCE18F82192B61446A59 /* Pods-TimerScroll */,
-				EA1A710F18C5CB463320A2D6 /* Pods-TimerScroll-SDWebImage */,
-				90ADB6E5C07158252B8DE213 /* Pods-TimerScroll-TFQImageScrollView */,
-				65F449B04304B06EC6419322 /* Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView */,
-				74CD676067EC91F45A10A031 /* Pods-TimerScroll-TimerScroll */,
-				1DF6470ED8DFF273CBE3A7B3 /* Pods-TimerScroll-TimerScroll-TimerScroll */,
+				3A1E3AED24EEE10C022F37B8 /* Pods-Tests */,
+				A8E197CD458FA3619093F0B7 /* Pods-Tests-TimerScroll */,
+				2249340D64D55A7928BE2B70 /* Pods-Tests-TimerScroll-TimerScroll */,
+				518BC0F13323FDEE3EF6129B /* Pods-TimerScroll */,
+				5AC3DE52AE3BE23FAB3CA26E /* Pods-TimerScroll-TimerScroll */,
+				D33B290BF6485368B4B68941 /* Pods-TimerScroll-TimerScroll-TimerScroll */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A8FB42E01AAE1202271CE90 /* Resources */ = {
+		445E55AAD1282EC936CD95F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		353BF0AF3807420CAD139A7B /* Resources */ = {
+		51896D89474BDFCBCB0A604C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F05F3DFD0C66A5610ACDE4C6 /* TFQImageScrollView.bundle in Resources */,
+				800181D275B330B6DDFDADA3 /* TimerScroll.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		419A22BD10E4E6CEF0E3A8E9 /* Resources */ = {
+		6E69FA412F1558D4D3BB4313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC40F3E6631F1F7073B1A26 /* TimerScroll.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5020C5FC4ABB372D306109EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A618167E7FE46A72EFE955B3 /* TimerScroll.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE92D622E1D56978CE392DB3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96A6937147E3F928BA231DF9 /* TimerScroll.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC2DED9D04B09E311BF7283E /* Resources */ = {
+		DE5BB665E4423B30EC4B47DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -848,167 +507,87 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CE7779441739C40FDA7CC22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEAA64339A8F6762EFD79C2D /* Pods-TimerScroll-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38B2E7BD092306BC8006A56D /* Sources */ = {
+		2D46853D2A195304B53BF111 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D45170EA2606CC764A9326 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6C83EC9CCFE45E1E0E95E13 /* ImageScrollView.swift in Sources */,
-				7C81FF596A41A2DEB8A7AF45 /* Pods-Tests-TimerScroll-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8401CB977C9ED39B13E2173B /* Sources */ = {
+		409319BEE33735012C261E0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0953E2EF1B3DB4D80099EED /* Sources */ = {
+		94840D6BB8A9384135444FD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4BD24007CB0A95866FA4D5 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B24355DDE08D842A3235766D /* Sources */ = {
+		A245DF84CD5B9D52D705E158 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87FFA89663D5CD580E756E2B /* NSData+ImageContentType.m in Sources */,
-				61230AE72F71FC79B6A16E32 /* Pods-TimerScroll-SDWebImage-dummy.m in Sources */,
-				7B810BFE2BBE916F4B657519 /* SDImageCache.m in Sources */,
-				1D11E5B0A9F9360D9476595D /* SDWebImageCompat.m in Sources */,
-				AA0CFEE17A30B417F8D1FF2B /* SDWebImageDecoder.m in Sources */,
-				64A9485236B759D51389CA83 /* SDWebImageDownloader.m in Sources */,
-				523B6A3F1E669ED06A36DB71 /* SDWebImageDownloaderOperation.m in Sources */,
-				44E4E8C14C651A6A5E0738AF /* SDWebImageManager.m in Sources */,
-				4C31103B16131D7D5519DA93 /* SDWebImagePrefetcher.m in Sources */,
-				A99DEADE5F23404C7CBF135D /* UIButton+WebCache.m in Sources */,
-				D1FEA112E947AE9A6BC57DCE /* UIImage+GIF.m in Sources */,
-				6445086B9B624125BB8FCD19 /* UIImage+MultiFormat.m in Sources */,
-				AA7C9C3F168847406079D2D8 /* UIImageView+HighlightedWebCache.m in Sources */,
-				08BE43007588192F29523EDC /* UIImageView+WebCache.m in Sources */,
-				D800D986E7A9F594C751EE92 /* UIView+WebCacheOperation.m in Sources */,
+				F6D8B450F68A2C770BE8AC3E /* ImageScrollView.swift in Sources */,
+				DAD25BFC966F3D9AE64909E5 /* Pods-TimerScroll-TimerScroll-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D63D98199521EB3EFB78536D /* Sources */ = {
+		B1E0CBB963F0A8C8496DB4B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52E3EA7F5D8EEC7593887E6 /* ImageScrollView.swift in Sources */,
-				A915DBD65C00D488EB5A573F /* Pods-TimerScroll-TimerScroll-dummy.m in Sources */,
+				92168C027531E32657EB83BE /* Pods-TimerScroll-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6A7BDCB138C358AA2FCB846 /* Sources */ = {
+		C7297B55A302AEE78490D1A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC77CABCF427DAE2716F7F0 /* Pods-TimerScroll-TFQImageScrollView-dummy.m in Sources */,
-				D13EADDEC8D8F087518C7D6F /* TFQImageScrollView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5968165C113507EF818FF37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB05E56C2E4B32BD91F62963 /* Pods-Tests-dummy.m in Sources */,
+				48D7F4268C45BD8B04E70576 /* ImageScrollView.swift in Sources */,
+				08C1577B737B6CE972890DFC /* Pods-Tests-TimerScroll-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01128B746C8545EECB90474B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TimerScroll-TimerScroll";
-			target = 74CD676067EC91F45A10A031 /* Pods-TimerScroll-TimerScroll */;
-			targetProxy = 76460981DD6C92EE38DBF7F6 /* PBXContainerItemProxy */;
-		};
-		245E0BA219F4AD70B076426C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TimerScroll-TFQImageScrollView";
-			target = 90ADB6E5C07158252B8DE213 /* Pods-TimerScroll-TFQImageScrollView */;
-			targetProxy = 57C7F20E5A31EABDF7336A0B /* PBXContainerItemProxy */;
-		};
-		2E803DE5E0740446C3715594 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-TimerScroll-TimerScroll";
-			target = C36C5331AD82ED4673301352 /* Pods-Tests-TimerScroll-TimerScroll */;
-			targetProxy = FB898312209D04024B7F4714 /* PBXContainerItemProxy */;
-		};
-		3D0088EFE575A5AA66BE768C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-TimerScroll";
-			target = 464829E862430D71A88703A4 /* Pods-Tests-TimerScroll */;
-			targetProxy = 5072BB70373A09FB1834A8BA /* PBXContainerItemProxy */;
-		};
-		5F6D727D27E9EACBBDDA8B73 /* PBXTargetDependency */ = {
+		4AACB85B3E69AE8E93B78B6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TimerScroll-TimerScroll-TimerScroll";
-			target = 1DF6470ED8DFF273CBE3A7B3 /* Pods-TimerScroll-TimerScroll-TimerScroll */;
-			targetProxy = 537970A0FEC29C7A1AF87948 /* PBXContainerItemProxy */;
+			target = D33B290BF6485368B4B68941 /* Pods-TimerScroll-TimerScroll-TimerScroll */;
+			targetProxy = FFC540E39ABD3BD4B84350FB /* PBXContainerItemProxy */;
 		};
-		69A7C7AA1CAAD1E747D25D2C /* PBXTargetDependency */ = {
+		C63FFA7A5B6EFC3BEB6ADD2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView";
-			target = 65F449B04304B06EC6419322 /* Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView */;
-			targetProxy = 24CD0E007F649BD8067AB2A2 /* PBXContainerItemProxy */;
+			name = "Pods-Tests-TimerScroll-TimerScroll";
+			target = 2249340D64D55A7928BE2B70 /* Pods-Tests-TimerScroll-TimerScroll */;
+			targetProxy = 09F6AFE1F381E851AC29E1AD /* PBXContainerItemProxy */;
 		};
-		9B494CD42427416E2F606D34 /* PBXTargetDependency */ = {
+		CE9D8EA3964B0068833D7663 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-TimerScroll-SDWebImage";
-			target = EA1A710F18C5CB463320A2D6 /* Pods-TimerScroll-SDWebImage */;
-			targetProxy = 49D119D473254778BBE26901 /* PBXContainerItemProxy */;
+			name = "Pods-TimerScroll-TimerScroll";
+			target = 5AC3DE52AE3BE23FAB3CA26E /* Pods-TimerScroll-TimerScroll */;
+			targetProxy = 48EEA7CD2238E3141DEFA356 /* PBXContainerItemProxy */;
+		};
+		D12C0CA6B44C3FB654503E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-TimerScroll";
+			target = A8E197CD458FA3619093F0B7 /* Pods-Tests-TimerScroll */;
+			targetProxy = E1DB8972BA07710D77378B7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04A75C009602CDC3FE023D68 /* Release */ = {
+		0B00154AE602B2A40EA866AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TimerScroll;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		14C11BEB2C2618E65D6DCE88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TimerScroll";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TFQImageScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		2A849DCE978CCC6588FBFD84 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F3C44E2D54C0FAF5A423FF4 /* Pods-Tests-TimerScroll-Private.xcconfig */;
+			baseConfigurationReference = 221E49C73A5F83B3301791D3 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1017,81 +596,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests-TimerScroll/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TimerScroll;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		31F1AFA162AF51E224642E4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A328853B0AAD9FE7B28058B /* Pods-TimerScroll-SDWebImage-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimerScroll-SDWebImage/Pods-TimerScroll-SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll-SDWebImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll-SDWebImage/Pods-TimerScroll-SDWebImage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SDWebImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		54D0D4B495CA671A7A34FFF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TimerScroll";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TimerScroll;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5BC7BE122C29D70582798715 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A328853B0AAD9FE7B28058B /* Pods-TimerScroll-SDWebImage-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimerScroll-SDWebImage/Pods-TimerScroll-SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll-SDWebImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll-SDWebImage/Pods-TimerScroll-SDWebImage.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SDWebImage;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1100,36 +614,43 @@
 			};
 			name = Release;
 		};
-		6348AFDD3D913B6038471E09 /* Debug */ = {
+		0B722C4E0F1B207442C9E337 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B61419E3FFA29BF8E756C8B /* Pods-TimerScroll-TFQImageScrollView-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimerScroll-TFQImageScrollView/Pods-TimerScroll-TFQImageScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll-TFQImageScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll-TFQImageScrollView/Pods-TimerScroll-TFQImageScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TFQImageScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		758B9FB7787994D106BD0E82 /* Debug */ = {
+		1727F6613B0799DA845C2C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73726907A23325CC31EFCB85 /* Pods-TimerScroll.debug.xcconfig */;
+			baseConfigurationReference = 3546D05CB75B724EE12A35E1 /* Pods-TimerScroll.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1157,7 +678,142 @@
 			};
 			name = Debug;
 		};
-		7F5DD99CCBD6231617D43DEC /* Debug */ = {
+		51E74306298CD06607A52CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TimerScroll";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TimerScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		62D8586AF349A1E3685E78A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D418CEF861D670B4BCB1D1 /* Pods-Tests-TimerScroll-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-TimerScroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TimerScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		639EAF17077B5F2AF24542AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E740D68BAB88458280C37F /* Pods-TimerScroll.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll/Pods-TimerScroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TimerScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		907CBCBEF598B08312639617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF8A47988803BC83CAE6F8D /* Pods-TimerScroll-TimerScroll-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll-TimerScroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TimerScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A14C86496D799157876509F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D418CEF861D670B4BCB1D1 /* Pods-Tests-TimerScroll-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-TimerScroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TimerScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB7FB19C2B57E723DE6096D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TimerScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BBFBC34E3DA94612F0156BF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1196,21 +852,9 @@
 			};
 			name = Debug;
 		};
-		8983EB97E193AF512A76689C /* Release */ = {
+		C0FCC2E1F467D1BB76D70E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TimerScroll";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TFQImageScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A7B0843C18C91ECAFB77E3B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9247612BF3ECD58F676CB03 /* Pods-TimerScroll-TimerScroll-Private.xcconfig */;
+			baseConfigurationReference = 0DF8A47988803BC83CAE6F8D /* Pods-TimerScroll-TimerScroll-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1225,17 +869,60 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = TimerScroll;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B3B9418B6227D3FE8CE9558F /* Debug */ = {
+		CE521B4D418CD9545BA9318E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4F252EEB4A970B68FA09B4 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3DDD0FED3AA19A05085D2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TimerScroll";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TimerScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DD662EA995B609651481AC16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests";
@@ -1245,318 +932,75 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
-		};
-		BA69AA4329F064F05BE3AC38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1885A8FF5A1187668FD91964 /* Pods-TimerScroll.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll/Pods-TimerScroll.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_TimerScroll;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BD9F4F0910A6D7D020BADE6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TimerScroll";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = TimerScroll;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		CF29D37F6D0BF28D6573E487 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9247612BF3ECD58F676CB03 /* Pods-TimerScroll-TimerScroll-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll-TimerScroll/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll-TimerScroll/Pods-TimerScroll-TimerScroll.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TimerScroll;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D6F58B3671E0A1B7AAFF0B83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F1BAE45463BDA3945B5841A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F3C44E2D54C0FAF5A423FF4 /* Pods-Tests-TimerScroll-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests-TimerScroll/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests-TimerScroll/Pods-Tests-TimerScroll.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TimerScroll;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F391D0D64F3FBF1CB0F5E0B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C2A2D08CAB759492C7E122F /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FEA44F117FA237B6E3CB0E66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 234510C9A3EF158B3D1D9584 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FF69F377DF612B0A066640CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B61419E3FFA29BF8E756C8B /* Pods-TimerScroll-TFQImageScrollView-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TimerScroll-TFQImageScrollView/Pods-TimerScroll-TFQImageScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimerScroll-TFQImageScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-TimerScroll-TFQImageScrollView/Pods-TimerScroll-TFQImageScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TFQImageScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1140B38B30D14FD94A8C3E1D /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TFQImageScrollView-TFQImageScrollView" */ = {
+		01BA7661480B8E1CF2343D98 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll-TimerScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14C11BEB2C2618E65D6DCE88 /* Debug */,
-				8983EB97E193AF512A76689C /* Release */,
+				BB7FB19C2B57E723DE6096D8 /* Debug */,
+				DD662EA995B609651481AC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56556EFC871375F1C50B70DC /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-SDWebImage" */ = {
+		2006A9ACF922FD5016F74AC1 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31F1AFA162AF51E224642E4C /* Debug */,
-				5BC7BE122C29D70582798715 /* Release */,
+				BBFBC34E3DA94612F0156BF6 /* Debug */,
+				0B722C4E0F1B207442C9E337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F2E5CA8A9EF21580339902A /* Build configuration list for PBXNativeTarget "Pods-TimerScroll" */ = {
+		3342DAED4B8D914B35B00EE0 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				758B9FB7787994D106BD0E82 /* Debug */,
-				BA69AA4329F064F05BE3AC38 /* Release */,
+				CE521B4D418CD9545BA9318E /* Debug */,
+				0B00154AE602B2A40EA866AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C14E7BABB0DE8B35A86EC32 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TFQImageScrollView" */ = {
+		8F6B4DF2597BAD6994483584 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6348AFDD3D913B6038471E09 /* Debug */,
-				FF69F377DF612B0A066640CA /* Release */,
+				C0FCC2E1F467D1BB76D70E0B /* Debug */,
+				907CBCBEF598B08312639617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D5EDAB86D2C068AE6D3A780 /* Build configuration list for PBXProject "Pods" */ = {
+		92E91B4891DE3DED28B7B2F7 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F5DD99CCBD6231617D43DEC /* Debug */,
-				D6F58B3671E0A1B7AAFF0B83 /* Release */,
+				1727F6613B0799DA845C2C5E /* Debug */,
+				639EAF17077B5F2AF24542AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C57438116E6E70DBC41D3925 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll" */ = {
+		A0293C8E89C239AF5B798325 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll-TimerScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF29D37F6D0BF28D6573E487 /* Debug */,
-				A7B0843C18C91ECAFB77E3B6 /* Release */,
+				D3DDD0FED3AA19A05085D2E4 /* Debug */,
+				51E74306298CD06607A52CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D012C09A7E7DDD194ECDB072 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll-TimerScroll" */ = {
+		DCA3FB1C5A902327B8888926 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3B9418B6227D3FE8CE9558F /* Debug */,
-				04A75C009602CDC3FE023D68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D56DF1FCDBD60388AAC06182 /* Build configuration list for PBXNativeTarget "Pods-TimerScroll-TimerScroll-TimerScroll" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD9F4F0910A6D7D020BADE6E /* Debug */,
-				54D0D4B495CA671A7A34FFF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF66FBC79BA28118890DBBF4 /* Build configuration list for PBXNativeTarget "Pods-Tests-TimerScroll" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A849DCE978CCC6588FBFD84 /* Debug */,
-				F1BAE45463BDA3945B5841A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F18D0D37F3D2438CC0E63418 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FEA44F117FA237B6E3CB0E66 /* Debug */,
-				F391D0D64F3FBF1CB0F5E0B7 /* Release */,
+				A14C86496D799157876509F5 /* Debug */,
+				62D8586AF349A1E3685E78A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C607D4AF2CE0AE2AAF79BC26 /* Project object */;
+	rootObject = 07FFB842A4402718B253F1D4 /* Project object */;
 }

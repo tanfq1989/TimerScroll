@@ -48,12 +48,8 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'SDWebImage.framework'
-  install_framework 'TFQImageScrollView.framework'
   install_framework 'TimerScroll.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'SDWebImage.framework'
-  install_framework 'TFQImageScrollView.framework'
   install_framework 'TimerScroll.framework'
 fi

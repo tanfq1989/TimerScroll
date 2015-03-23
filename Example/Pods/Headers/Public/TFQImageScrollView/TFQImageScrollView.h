@@ -1,1 +1,0 @@
-../../../TFQImageScrollView/Pod/Classes/TFQImageScrollView.h

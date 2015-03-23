@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    TimerScroll* ts=[[TimerScroll alloc] init];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

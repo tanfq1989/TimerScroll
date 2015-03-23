@@ -1,29 +1,14 @@
 PODS:
-  - SDWebImage (3.7.2):
-    - SDWebImage/Core (= 3.7.2)
-  - SDWebImage/Core (3.7.2)
-  - TFQImageScrollView (0.1.0)
   - TimerScroll (0.1.0)
 
 DEPENDENCIES:
-  - SDWebImage
-  - TFQImageScrollView (from `https://github.com/tanfq1989/TFQImageScrollView.git`)
   - TimerScroll (from `../`)
 
 EXTERNAL SOURCES:
-  TFQImageScrollView:
-    :git: https://github.com/tanfq1989/TFQImageScrollView.git
   TimerScroll:
     :path: ../
 
-CHECKOUT OPTIONS:
-  TFQImageScrollView:
-    :commit: 9f14926aad84e3e9300a3b811cd82e2635a22fb3
-    :git: https://github.com/tanfq1989/TFQImageScrollView.git
-
 SPEC CHECKSUMS:
-  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
-  TFQImageScrollView: 7ba4db363a9c6ad2835e34f5b1e9a41da34b1068
-  TimerScroll: 27236eb31721c4ce30ebbf736c6ba36b7b1700f1
+  TimerScroll: 6d0a38792bf3d8e7e32982e08da185ed2e4fd173
 
 COCOAPODS: 0.36.0

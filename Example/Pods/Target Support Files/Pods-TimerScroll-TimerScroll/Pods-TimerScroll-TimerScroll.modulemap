@@ -1,6 +1,0 @@
-framework module TimerScroll {
-  umbrella header "Pods-TimerScroll-TimerScroll-umbrella.h"
-
-  export *
-  module * { export * }
-}

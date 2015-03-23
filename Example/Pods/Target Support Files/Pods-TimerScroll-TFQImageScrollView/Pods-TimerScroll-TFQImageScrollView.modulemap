@@ -1,0 +1,6 @@
+framework module TFQImageScrollView {
+  umbrella header "Pods-TimerScroll-TFQImageScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

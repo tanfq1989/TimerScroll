@@ -7,7 +7,7 @@
 //
 
 #import "TSViewController.h"
-
+#import "TimerScroll-swift.h"
 @interface TSViewController ()
 
 @end

@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "TimerScroll"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TimerScroll."
+  s.summary          = "TimerScroll."
   s.description      = <<-DESC
-                       An optional longer description of TimerScroll
+                       TimerScroll
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 s.source           = { :git => "https://github.com/tanfq1989/TimerScroll.git",:tag =>"0.1.0" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -34,6 +34,5 @@ s.source           = { :git => "https://github.com/tanfq1989/TimerScroll.git",:t
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency    'TFQImageScrollView',:git => "https://github.com/tanfq1989/TFQImageScrollView.git" 
-
+#  s.dependency    "TFQImageScrollView"
 end

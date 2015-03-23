@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B45B171ABBB01200BE3B2E /* TimerScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B45B161ABBB01200BE3B2E /* TimerScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B45B1D1ABBB01200BE3B2E /* TimerScroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45B111ABBB01200BE3B2E /* TimerScroll.framework */; };
+		84B45B241ABBB01200BE3B2E /* TimerScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B45B231ABBB01200BE3B2E /* TimerScrollTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B45B1E1ABBB01200BE3B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B45B081ABBB01200BE3B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B45B101ABBB01200BE3B2E;
+			remoteInfo = TimerScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B45B111ABBB01200BE3B2E /* TimerScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimerScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B45B151ABBB01200BE3B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B45B161ABBB01200BE3B2E /* TimerScroll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerScroll.h; sourceTree = "<group>"; };
+		84B45B1C1ABBB01200BE3B2E /* TimerScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B45B221ABBB01200BE3B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B45B231ABBB01200BE3B2E /* TimerScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScrollTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B45B0D1ABBB01200BE3B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45B191ABBB01200BE3B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45B1D1ABBB01200BE3B2E /* TimerScroll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B45B071ABBB01200BE3B2E = {
+			isa = PBXGroup;
+			children = (
+				84B45B131ABBB01200BE3B2E /* TimerScroll */,
+				84B45B201ABBB01200BE3B2E /* TimerScrollTests */,
+				84B45B121ABBB01200BE3B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B45B121ABBB01200BE3B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B45B111ABBB01200BE3B2E /* TimerScroll.framework */,
+				84B45B1C1ABBB01200BE3B2E /* TimerScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B45B131ABBB01200BE3B2E /* TimerScroll */ = {
+			isa = PBXGroup;
+			children = (
+				84B45B161ABBB01200BE3B2E /* TimerScroll.h */,
+				84B45B141ABBB01200BE3B2E /* Supporting Files */,
+			);
+			path = TimerScroll;
+			sourceTree = "<group>";
+		};
+		84B45B141ABBB01200BE3B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B45B151ABBB01200BE3B2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B45B201ABBB01200BE3B2E /* TimerScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B45B231ABBB01200BE3B2E /* TimerScrollTests.swift */,
+				84B45B211ABBB01200BE3B2E /* Supporting Files */,
+			);
+			path = TimerScrollTests;
+			sourceTree = "<group>";
+		};
+		84B45B211ABBB01200BE3B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B45B221ABBB01200BE3B2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84B45B0E1ABBB01200BE3B2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45B171ABBB01200BE3B2E /* TimerScroll.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84B45B101ABBB01200BE3B2E /* TimerScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B45B271ABBB01200BE3B2E /* Build configuration list for PBXNativeTarget "TimerScroll" */;
+			buildPhases = (
+				84B45B0C1ABBB01200BE3B2E /* Sources */,
+				84B45B0D1ABBB01200BE3B2E /* Frameworks */,
+				84B45B0E1ABBB01200BE3B2E /* Headers */,
+				84B45B0F1ABBB01200BE3B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerScroll;
+			productName = TimerScroll;
+			productReference = 84B45B111ABBB01200BE3B2E /* TimerScroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84B45B1B1ABBB01200BE3B2E /* TimerScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B45B2A1ABBB01200BE3B2E /* Build configuration list for PBXNativeTarget "TimerScrollTests" */;
+			buildPhases = (
+				84B45B181ABBB01200BE3B2E /* Sources */,
+				84B45B191ABBB01200BE3B2E /* Frameworks */,
+				84B45B1A1ABBB01200BE3B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B45B1F1ABBB01200BE3B2E /* PBXTargetDependency */,
+			);
+			name = TimerScrollTests;
+			productName = TimerScrollTests;
+			productReference = 84B45B1C1ABBB01200BE3B2E /* TimerScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B45B081ABBB01200BE3B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TFQ;
+				TargetAttributes = {
+					84B45B101ABBB01200BE3B2E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					84B45B1B1ABBB01200BE3B2E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 84B45B0B1ABBB01200BE3B2E /* Build configuration list for PBXProject "TimerScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B45B071ABBB01200BE3B2E;
+			productRefGroup = 84B45B121ABBB01200BE3B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B45B101ABBB01200BE3B2E /* TimerScroll */,
+				84B45B1B1ABBB01200BE3B2E /* TimerScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B45B0F1ABBB01200BE3B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45B1A1ABBB01200BE3B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B45B0C1ABBB01200BE3B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45B181ABBB01200BE3B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45B241ABBB01200BE3B2E /* TimerScrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B45B1F1ABBB01200BE3B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B45B101ABBB01200BE3B2E /* TimerScroll */;
+			targetProxy = 84B45B1E1ABBB01200BE3B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84B45B251ABBB01200BE3B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84B45B261ABBB01200BE3B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84B45B281ABBB01200BE3B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TimerScroll/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84B45B291ABBB01200BE3B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TimerScroll/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84B45B2B1ABBB01200BE3B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimerScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84B45B2C1ABBB01200BE3B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimerScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B45B0B1ABBB01200BE3B2E /* Build configuration list for PBXProject "TimerScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45B251ABBB01200BE3B2E /* Debug */,
+				84B45B261ABBB01200BE3B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B45B271ABBB01200BE3B2E /* Build configuration list for PBXNativeTarget "TimerScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45B281ABBB01200BE3B2E /* Debug */,
+				84B45B291ABBB01200BE3B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84B45B2A1ABBB01200BE3B2E /* Build configuration list for PBXNativeTarget "TimerScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45B2B1ABBB01200BE3B2E /* Debug */,
+				84B45B2C1ABBB01200BE3B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B45B081ABBB01200BE3B2E /* Project object */;
+}

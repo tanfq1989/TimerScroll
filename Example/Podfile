@@ -4,6 +4,7 @@ target 'TimerScroll', :exclusive => true do
   
   pod 'TFQImageScrollView', :git => 'https://github.com/tanfq1989/TFQImageScrollView.git'
   pod "TimerScroll", :path => "../"
+  
   pod "SDWebImage"
 end
 
